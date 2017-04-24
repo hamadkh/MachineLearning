@@ -1,34 +1,6 @@
 # monkeylearn-php
 Official PHP client for the MonkeyLearn API. Build and consume machine learning models for language processing from your PHP apps.
 
-Autoload
---------
-
-The first step to use `monkeylearn-php` is to download composer:
-
-```bash
-$ curl -s http://getcomposer.org/installer | php
-```
-
-Then we have to install our dependencies using:
-```bash
-$ php composer.phar install
-```
-Now we can use autoloader from Composer by:
-
-```json
-{
-    "require": {
-        "monkeylearn/monkeylearn-php": "~0.1"
-    }
-}
-```
-
-Or, if you don't want to use composer, clone the code and include this line of code:
-
-    require 'autoload.php';
-    
-
 Usage examples
 --------------
 

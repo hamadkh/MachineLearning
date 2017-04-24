@@ -45,8 +45,8 @@ $plan=$res->result[0][0]['label'];
     </a>
   </header>
   <div class="card-content">
-	<h1 class="title is-1" > <b style="color:black">PLAN <?php 
-	echo "$plan"; 
+	<h1 class="title is-1" > <b style="color:black">PLAN <?php
+	echo "$plan";
 	?></b></h1>
     <div class="content">
       This is the best plan for you. Apply, save or ask for more details about the plan.
@@ -58,9 +58,15 @@ $plan=$res->result[0][0]['label'];
   </footer>
 </div>
       </div>
-	   <p class="has-text-centered">
+      <a href="https://github.com/hamadkh/MachineLearning" class="button is-success is-inverted">
+                <span class="icon">
+                  <i class="fa fa-github-alt"></i>
+                </span>
+                <span>Github</span>
+              </a>
+          <p class="has-text-centered">
               <a href="#">Hamad</a>
-              | 
+              |
               <a href="#">Matt</a>
 			  |
 			   <a href="#">Brock</a>

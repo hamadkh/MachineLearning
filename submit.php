@@ -69,7 +69,7 @@ $plan=$res->result[0][0]['label'];
                 <span class="icon">
                   <i class="fa fa-arrow-circle-o-left"></i>
                 </span>
-                <span>Github</span>
+                <span>Back</span>
               </a>
           <p class="has-text-centered">
               <a href="#">Hamad</a>

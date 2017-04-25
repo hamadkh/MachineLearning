@@ -58,9 +58,16 @@ $plan=$res->result[0][0]['label'];
   </footer>
 </div>
       </div>
+      <br>
       <a href="https://github.com/hamadkh/MachineLearning" class="button is-success is-inverted">
                 <span class="icon">
                   <i class="fa fa-github-alt"></i>
+                </span>
+                <span>Github</span>
+              </a>
+                  <a href="https://healthplan-predictor.herokuapp.com/" class="button is-success is-inverted">
+                <span class="icon">
+                  <i class="fa fa-arrow-circle-o-left"></i>
                 </span>
                 <span>Github</span>
               </a>

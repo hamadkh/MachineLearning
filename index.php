@@ -90,7 +90,7 @@
     var x = document.forms["myForm"]["name"].value;
     var y = document.forms["myForm"]["gender"].value;
     var z = document.forms["myForm"]["age"].value;
-    var p = document.forms["diseases"]["name"].value;
+    var p = document.forms["myForm"]["diseases"].value;
 
 
     if (x == "" || y== ""|| z==""|| p=="") {

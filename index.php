@@ -7,6 +7,29 @@
 <title>Hamad Khawaja</title>
 </head>
 <body>
+     <section class="hero is-info is-fullheight">
+    <!-- Hero header: will stick at the top -->
+    <div class="hero-head">
+      <header class="nav">
+        <div class="container">
+          <div class="nav-left">
+            <a href="index.html" class="nav-item">
+                <h1>Healtcare Predictor</h1>
+            </a><small>&copy 2017</small>
+          </div>
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="nav-right nav-menu">
+            <a href="index.php" class="nav-item is-active">
+              Home
+            </a>
+          </div>
+        </div>
+      </header>
+    </div>
     <!-- Hero content: will be in the middle -->
     <section class="hero is-fullheight is-info is-bold">
     <div class="hero-body">
@@ -53,7 +76,16 @@
         </div>
       </div>
     </div>
-
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <li class="is-active"><a href="index.php">Overview</a></li>
+            <li><a href="plans.html">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </section>
   </section>
 </body>

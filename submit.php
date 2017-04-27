@@ -54,7 +54,7 @@ $plan=$res->result[0][0]['label'];
   <footer class="card-footer">
     <a class="card-footer-item">Save</a>
     <a class="card-footer-item">Apply</a>
-    <a class="card-footer-item">Info</a>
+    <a href="plans.html" class="card-footer-item">Info</a>
   </footer>
 </div>
       </div>

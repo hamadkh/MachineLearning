@@ -65,11 +65,10 @@
               <hr>
               <p class="control">
                 <button class="button is-primary">Submit</button>
-                <button class="button is-default">Cancel</button>
               </p>
             </div>
 			</form>
-        <a class="button is-success"  type="text" value="Cancer" id="text">Success</a>
+        <a class="button is-success" type="button" value="Click Me" id="button">Success</a>
         <a class="button is-success">Success</a>
 
             <p class="has-text-centered">
@@ -95,7 +94,7 @@
   $(function () {
     $('#button').on('click', function () {
         var text = $('#text');
-        text.val(text.val() + ' after clicking');    
+        text.val(text.val() + 'Dementia');    
     });
 });
 </script>

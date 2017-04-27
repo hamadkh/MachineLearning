@@ -35,7 +35,7 @@
       <div class="container">
         <div class="columns is-vcentered">
           <div class="column is-4 is-offset-4">
-		  <form action="submit.php" method="post">
+		  <form action="submit.php" name="myForm" onsubmit="return validateForm()" method="post">
             <h1 class="title">
               Enter Your Information
             </h1>
@@ -64,7 +64,6 @@
               <hr>
               <p class="control">
                 <button class="button is-primary">Submit</button>
-                <button class="button is-default">Cancel</button>
               </p>
             </div>
 			</form>
@@ -86,6 +85,14 @@
       </nav>
     </div>
   </section>
-  </section>
+  <script>
+    function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+    </script>
 </body>
 </html>

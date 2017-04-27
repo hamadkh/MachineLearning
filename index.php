@@ -9,6 +9,28 @@
 <body>
     <!-- Hero content: will be in the middle -->
     <section class="hero is-fullheight is-info is-bold">
+       <!-- Hero header: will stick at the top -->
+    <div class="hero-head">
+      <header class="nav">
+        <div class="container">
+          <div class="nav-left">
+            <a href="index.html" class="nav-item">
+                <h1>Healtcare Predictor</h1>
+            </a><small>&copy 2017</small>
+          </div>
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="nav-right nav-menu">
+            <a href="index.php" class="nav-item is-active">
+              Home
+            </a>
+          </div>
+        </div>
+      </header>
+    </div>
     <div class="hero-body">
       <div class="container">
         <div class="columns is-vcentered">

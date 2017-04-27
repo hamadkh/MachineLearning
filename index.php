@@ -69,6 +69,9 @@
               </p>
             </div>
 			</form>
+        <a class="button is-success"  type="text" value="Cancer" id="text">Success</a>
+        <a class="button is-success">Success</a>
+
             <p class="has-text-centered">
               <a href="#">Need help?</a>
             </p>
@@ -88,5 +91,13 @@
     </div>
   </section>
   </section>
+<script>
+  $(function () {
+    $('#button').on('click', function () {
+        var text = $('#text');
+        text.val(text.val() + ' after clicking');    
+    });
+});
+</script>
 </body>
 </html>

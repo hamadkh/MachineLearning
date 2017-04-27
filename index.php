@@ -81,7 +81,7 @@
         <div class="container">
           <ul>
             <li class="is-active"><a href="index.php">Overview</a></li>
-            <li><a href="plans.html">Skills</a></li>
+            <li><a href="plans.html">Plans</a></li>
           </ul>
         </div>
       </nav>

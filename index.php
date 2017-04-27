@@ -7,29 +7,6 @@
 <title>Hamad Khawaja</title>
 </head>
 <body>
-     <section class="hero is-info is-fullheight">
-    <!-- Hero header: will stick at the top -->
-    <div class="hero-head">
-      <header class="nav">
-        <div class="container">
-          <div class="nav-left">
-            <a href="index.html" class="nav-item">
-                <h1>Healtcare Predictor</h1>
-            </a><small>&copy 2017</small>
-          </div>
-          <span class="nav-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-          <div class="nav-right nav-menu">
-            <a href="index.php" class="nav-item is-active">
-              Home
-            </a>
-          </div>
-        </div>
-      </header>
-    </div>
     <!-- Hero content: will be in the middle -->
     <section class="hero is-fullheight is-info is-bold">
     <div class="hero-body">
@@ -65,12 +42,10 @@
               <hr>
               <p class="control">
                 <button class="button is-primary">Submit</button>
+                <button class="button is-default">Cancel</button>
               </p>
             </div>
 			</form>
-        <a class="button is-success" type="button" value="Click Me" id="button">Success</a>
-        <a class="button is-success">Success</a>
-
             <p class="has-text-centered">
               <a href="#">Need help?</a>
             </p>
@@ -90,13 +65,5 @@
     </div>
   </section>
   </section>
-<script>
-  $(function () {
-    $('#button').on('click', function () {
-        var text = $('#text');
-        text.val(text.val() + 'Dementia');    
-    });
-});
-</script>
 </body>
 </html>

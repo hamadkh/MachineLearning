@@ -88,8 +88,13 @@
   <script>
     function validateForm() {
     var x = document.forms["myForm"]["name"].value;
-    if (x == "") {
-        alert("Name must be filled out");
+    var y = document.forms["myForm"]["gender"].value;
+    var z = document.forms["myForm"]["age"].value;
+    var p = document.forms["diseases"]["name"].value;
+
+
+    if (x == "" || y== ""|| z==""|| p=="") {
+        alert("All fields must be filled out");
         return false;
     }
 }
